@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFD01244-920F-4CB2-B24C-4589CC127469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{6CB92DB0-B714-4776-A7BB-585934F25861}"
+	ProjectSection(SolutionItems) = preProject
+		src\Packages\Play.Common.1.0.0.nupkg = src\Packages\Play.Common.1.0.0.nupkg
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "src\Play.Catalog\src\Play.Catalog.Service\Play.Catalog.Service.csproj", "{086FBA68-82D3-4667-B7C8-C4B10A6A48D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Common", "src\Play.Common\src\Play.Common\Play.Common.csproj", "{0573EC55-8F76-42E1-B957-2FFF7D5882A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086FBA68-82D3-4667-B7C8-C4B10A6A48D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086FBA68-82D3-4667-B7C8-C4B10A6A48D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086FBA68-82D3-4667-B7C8-C4B10A6A48D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086FBA68-82D3-4667-B7C8-C4B10A6A48D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0573EC55-8F76-42E1-B957-2FFF7D5882A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0573EC55-8F76-42E1-B957-2FFF7D5882A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0573EC55-8F76-42E1-B957-2FFF7D5882A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0573EC55-8F76-42E1-B957-2FFF7D5882A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CB92DB0-B714-4776-A7BB-585934F25861} = {BFD01244-920F-4CB2-B24C-4589CC127469}
+		{086FBA68-82D3-4667-B7C8-C4B10A6A48D2} = {BFD01244-920F-4CB2-B24C-4589CC127469}
+		{0573EC55-8F76-42E1-B957-2FFF7D5882A2} = {BFD01244-920F-4CB2-B24C-4589CC127469}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A7FC4C3-4C67-4EDA-BE81-6777C25439B7}
+	EndGlobalSection
+EndGlobal
